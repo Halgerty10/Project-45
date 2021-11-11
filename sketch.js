@@ -33,7 +33,7 @@ function setup() {
   plane  = createSprite(50,50,50,25);
   plane.addImage(Img);
   plane.scale = 0.3;
-  plane.debug = true;
+  //plane.debug = true;
   plane.setCollider("rectangle",0,0,220,50);
 
   plane.velocityY = 15;
@@ -102,7 +102,7 @@ function spawnBuildings() {
     building.scale = 0.3;
    }
     //console.log(r);
-    building.debug = true;
+    //building.debug = true;
     
     
     //assign scale and lifetime to the obstacle     
